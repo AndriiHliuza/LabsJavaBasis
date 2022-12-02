@@ -24,7 +24,7 @@ public class Main {
 
         Arrays.sort(makeupProducts, Comparator.comparing(Makeup::getBrand).reversed());
         for (int i = 0; i < makeupProducts.length; i++) {
-            System.out.println(i + ") " + makeupProducts[i]);
+            System.out.println((i + 1) + ") " + makeupProducts[i]);
         }
 
     }
